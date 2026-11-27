@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven
+target/
+
+# Configuración local de la base (modelo en .env.example)
+.env
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+nbproject/private/
+nb-configuration.xml
+
+# Archivos locales que no van al repo
+.claude/
+ESQUEMA_completo.sql
